@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projects\\Full-Stack-ecommerce-Website\\API\\API.csproj": {}
+    "D:\\Projects\\Full\\Full-Stack-ecommerce-Website\\API\\API.csproj": {}
   },
   "projects": {
-    "d:\\Projects\\Full-Stack-ecommerce-Website\\API\\API.csproj": {
+    "D:\\Projects\\Full\\Full-Stack-ecommerce-Website\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projects\\Full-Stack-ecommerce-Website\\API\\API.csproj",
+        "projectUniqueName": "D:\\Projects\\Full\\Full-Stack-ecommerce-Website\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "d:\\Projects\\Full-Stack-ecommerce-Website\\API\\API.csproj",
+        "projectPath": "D:\\Projects\\Full\\Full-Stack-ecommerce-Website\\API\\API.csproj",
         "packagesPath": "C:\\Users\\kaess\\.nuget\\packages\\",
-        "outputPath": "d:\\Projects\\Full-Stack-ecommerce-Website\\API\\obj\\",
+        "outputPath": "D:\\Projects\\Full\\Full-Stack-ecommerce-Website\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kaess\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kaess\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
