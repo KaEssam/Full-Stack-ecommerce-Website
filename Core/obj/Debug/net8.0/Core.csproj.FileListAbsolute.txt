@@ -1,0 +1,12 @@
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\bin\Debug\net8.0\Core.deps.json
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\bin\Debug\net8.0\Core.dll
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\bin\Debug\net8.0\Core.pdb
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\obj\Debug\net8.0\Core.sourcelink.json
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\obj\Debug\net8.0\Core.dll
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\obj\Debug\net8.0\refint\Core.dll
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\obj\Debug\net8.0\Core.pdb
+D:\Projects\Full\Full-Stack-ecommerce-Website\Core\obj\Debug\net8.0\ref\Core.dll
