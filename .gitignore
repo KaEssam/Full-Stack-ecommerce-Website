@@ -477,12 +477,3 @@ $RECYCLE.BIN/
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
-API/obj/Debug/net8.0/API.AssemblyInfo.cs
-.gitignore
-Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
-Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
-Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache
-Core/obj/Debug/net8.0/Core.AssemblyInfo.cs
-API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache
-API/obj/Debug/net8.0/API.AssemblyInfo.cs
-API/obj/Debug/net8.0/API.AssemblyInfo.cs
