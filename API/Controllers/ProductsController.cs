@@ -10,18 +10,26 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        public readonly IProductRepository _repo;
+        private readonly IGenericRepository<Product> _productRepo;
+        private readonly IGenericRepository<ProductBrand> _productBrandRepo;
+        private readonly IGenericRepository<ProductType> _productTypeRepo;
 
-        public ProductsController(IProductRepository repo)
+        public ProductsController(IGenericRepository<Product> ProductRepo,
+         IGenericRepository<ProductBrand> ProductBrandRepo,
+          IGenericRepository<ProductType> ProductTypeRepo)
         {
-            _repo = repo;
+            _productRepo = ProductRepo;
+            _productBrandRepo = ProductBrandRepo;
+            _productTypeRepo = ProductTypeRepo;
+
         }
+
 
         // GET api/products
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            var products = await _repo.GetProductsAsync();
+            var products = await _productRepo.ListAllAsync();
             return Ok(products);
         }
 
@@ -29,14 +37,14 @@ namespace API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            return await _repo.GetProductByIdAsync(id);
+            return await _productRepo.GetByIdAsync(id);
         }
 
         // GET api/products/brands
         [HttpGet("brands")]
         public async Task<ActionResult<List<ProductBrand>>> GetProductBrands()
         {
-            var brands = await _repo.GetProductBrandsAsync();
+            var brands = await _productBrandRepo.ListAllAsync();
             return Ok(brands);
         }
 
@@ -45,11 +53,8 @@ namespace API.Controllers
         [HttpGet("types")]
         public async Task<ActionResult<List<ProductType>>> GetProductTypes()
         {
-            var types = await _repo.GetProductTypesAsync();
+            var types = await _productTypeRepo.ListAllAsync();
             return Ok(types);
         }
-
-
-
     }
 }
